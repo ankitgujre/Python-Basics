@@ -49,3 +49,27 @@ print(c)
 print(type(a))
 print(type(b))
 print(type(c))
+
+# Strings in python are surrounded by either single quotation marks, or double quotation marks.
+
+g = "Helo"
+g = 'Hello world'
+print(g)
+
+# Quotes Inside Quotes
+# You can use quotes inside a string, as long as they don't match the quotes surrounding the string:
+
+s = '"Hello "'
+print(s)
+
+s = "It's"
+print(s)
+
+# Multiline String
+
+a = a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+
+print(a)
